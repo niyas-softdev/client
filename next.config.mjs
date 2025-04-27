@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    devIndicators: {
+      buildActivity: false, // ✅ disable the overlay (Loading / Compiling etc.)
+    },
+  };
+  
+  export default nextConfig;
+  
